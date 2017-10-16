@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/search_color"
+        >
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            />
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/guanzhu"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/search_color"
+        >
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/uik_avatar_normal"
+            />
+
+        <TextView
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="用户名"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

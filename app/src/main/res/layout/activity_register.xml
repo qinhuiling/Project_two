@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.asus.project_two.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_regBack"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/btn_back_detail_normal"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:text="帮助"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_regName"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:textColorHint="#BDBDBD"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et_regPwd"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:textColorHint="#BDBDBD"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:password="true"
+        />
+
+    <EditText
+        android:id="@+id/et_regAgainPwd"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="确认输入密码"
+        android:textColorHint="#BDBDBD"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:password="true"
+        />
+
+    <EditText
+        android:id="@+id/et_regEmail"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请填写邮箱"
+        android:textColorHint="#BDBDBD"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/bt_regCommit"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交注册"
+        android:textSize="25sp"
+        android:textColor="#FFECDC"
+        android:background="@drawable/shape_login_register"
+        />
+
+</LinearLayout>
